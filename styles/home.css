@@ -43,3 +43,32 @@ a{
 a:hover{
     background-color: #add8e6;
 }
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+  }
+
+section {
+    overflow: hidden;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.text, .image {
+    width: 46%;
+    padding: 20px;
+}
+
+.left-text-right-image .text {
+    float: left;
+}
+
+.left-text-right-image .image {
+    float: right;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
